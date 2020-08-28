@@ -28,3 +28,7 @@
 .row_posterLarge:hover{
     transform:scale(1.09);
 }
+
+.row{
+    margin-left: 20px;
+}

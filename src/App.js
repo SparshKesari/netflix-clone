@@ -2,10 +2,15 @@ import React from 'react';
 import './App.css';
 import Row from "./Row"
 import requests from "./requests"
+import Banner from "./Banner.js"
 
 function App() {
   return (
+
+
     <div className="App">
+    
+    <Banner />
       <h1>Neflix FrontEnd Clone</h1>
       <Row  title ="NETFLIX ORIGINAL" fetchUrl={requests.fetchNetflixOriginals} isLargeRow />
       <Row  title ="Trending Now" fetchUrl={requests.fetchTrending}/>
