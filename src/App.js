@@ -6,8 +6,8 @@ import requests from "./requests"
 function App() {
   return (
     <div className="App">
-      <h1>lsdiodjzv</h1>
-      <Row  title ="NETFLIX ORIGINAL" fetchUrl={requests.fetchNetflixOriginals}/>
+      <h1>Neflix FrontEnd Clone</h1>
+      <Row  title ="NETFLIX ORIGINAL" fetchUrl={requests.fetchNetflixOriginals} isLargeRow />
       <Row  title ="Trending Now" fetchUrl={requests.fetchTrending}/>
       <Row  title ="Top Rated" fetchUrl={requests.fetchTopRated}/>
       <Row  title ="Action Movies" fetchUrl={requests.fetchActionMovies}/>
